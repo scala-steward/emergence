@@ -18,8 +18,8 @@ object Dependencies {
     "io.circe"                      %% "circe-yaml"                     % "0.13.1",
     "io.circe"                      %% "circe-literal"                  % circeVersion,
     "io.circe"                      %% "circe-generic-extras"           % circeVersion,
-    "org.typelevel"                 %% "log4cats-slf4j"                 % "1.2.2",
-    "org.scalatest"                 %% "scalatest"                      % "3.2.8" % Test
+    "org.typelevel"                 %% "log4cats-slf4j"                 % "1.2.0",
+    "org.scalatest"                 %% "scalatest"                      % "3.2.9" % Test
   )
 
   val betterMonadicFor: ModuleID = "com.olegpy" %% "better-monadic-for" % "0.3.1"
